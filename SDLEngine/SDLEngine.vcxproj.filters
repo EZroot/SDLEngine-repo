@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{e8dc31af-a2dc-44bb-aa7a-a1a27de968f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{cfafc971-b16c-4128-b15f-7a9b35b930aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Core">
+      <UniqueIdentifier>{940429b6-b0d6-4088-9dd1-b87ad1bc2069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Component">
+      <UniqueIdentifier>{1a346e3b-04ec-42a3-b9da-e360a2c2f396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Debug">
+      <UniqueIdentifier>{5d140925-69c6-4f69-aa06-eabaf3345c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Core">
+      <UniqueIdentifier>{ff472b38-6948-4afb-9013-cbc10d57da75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Component">
+      <UniqueIdentifier>{ec755a11-cc0e-40e2-abaf-9c0d772eaf25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Debug">
+      <UniqueIdentifier>{8f1603dd-a1ea-4d57-9803-87bc9e7ebbd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{ac7be81a-7303-4784-b377-49758111380c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{bbbea64d-7807-488b-8a6c-f29aa124a52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Core">
+      <UniqueIdentifier>{9e1e43b9-4556-4cd4-a60c-3d88f191cdbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Stages">
+      <UniqueIdentifier>{badae9c4-c4ee-42e3-baf3-d9846185ee86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Core">
+      <UniqueIdentifier>{5bf7315d-4712-4596-a66b-12a32f62f02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Stages">
+      <UniqueIdentifier>{cd172192-c269-4f17-bc15-ad18c68a12ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Entity">
+      <UniqueIdentifier>{7f31b687-707b-499d-9071-15f6386839d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entity">
+      <UniqueIdentifier>{de401ec9-9bf9-4033-8029-2f4aeabaf79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine\Audio">
+      <UniqueIdentifier>{6f29dc18-30df-4551-9c8e-b62a5d4d4b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Audio">
+      <UniqueIdentifier>{a03046c3-013d-4cb7-994f-d9aff34c78f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Audio">
+      <UniqueIdentifier>{9083d3c3-f741-4bd4-8105-ef44b16038fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Audio">
+      <UniqueIdentifier>{7b94c514-0566-4c0d-afe4-d9729f043157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Projectiles">
+      <UniqueIdentifier>{db65c1db-6d8d-4f50-a089-8fc9401b7d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Effects">
+      <UniqueIdentifier>{c43588ca-957e-48f2-ba04-47868f8b34d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Enemies">
+      <UniqueIdentifier>{e9826a2e-3398-4d67-931f-b2cbece0d01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\ParallaxScroller">
+      <UniqueIdentifier>{5aabc95e-9162-4ee7-a842-2da5b25845b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Player">
+      <UniqueIdentifier>{42fb896a-d147-4165-ba38-f36b1ea28c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Projectiles">
+      <UniqueIdentifier>{0dbd2944-c2dc-4c94-8495-e566467131e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Effects">
+      <UniqueIdentifier>{5e9ff67f-e06f-4595-a0ca-818166cbbb20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Enemies">
+      <UniqueIdentifier>{8ec3c372-3401-4a98-aaa2-e4915bd1dbac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\ParallaxScroller">
+      <UniqueIdentifier>{3be4597f-e72a-4716-8926-60bd9e3a31c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Player">
+      <UniqueIdentifier>{98dffff2-1749-4fbc-8b68-c45d7e1d9122}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EEngine.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EEvent.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ETexture.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ETimer.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EAnimation.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ECollider.cpp">
+      <Filter>Source Files\Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ELog.cpp">
+      <Filter>Source Files\Engine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GIntro.cpp">
+      <Filter>Source Files\Game\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="GStage01.cpp">
+      <Filter>Source Files\Game\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="GGameState.cpp">
+      <Filter>Source Files\Game\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GGame.cpp">
+      <Filter>Source Files\Game\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GEntity.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GEntityContainer.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GEntityHandler.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GEntityFactory.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GEnemy.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GPlayerController.cpp">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GParallaxScroller.cpp">
+      <Filter>Source Files\Game\ParallaxScroller</Filter>
+    </ClCompile>
+    <ClCompile Include="GBackground.cpp">
+      <Filter>Source Files\Game\ParallaxScroller</Filter>
+    </ClCompile>
+    <ClCompile Include="GBullet.cpp">
+      <Filter>Source Files\Game\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GEnemySpawner.cpp">
+      <Filter>Source Files\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GCamera.cpp">
+      <Filter>Source Files\Game\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GParticle.cpp">
+      <Filter>Source Files\Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GParticleHandler.cpp">
+      <Filter>Source Files\Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GComboHandler.cpp">
+      <Filter>Source Files\Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EAudio.cpp">
+      <Filter>Source Files\Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="GAudioHandler.cpp">
+      <Filter>Source Files\Game\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="EFont.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GMainMenu.cpp">
+      <Filter>Source Files\Game\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="GStageDeath.cpp">
+      <Filter>Source Files\Game\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="GStage01_End.cpp">
+      <Filter>Source Files\Game\Stages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ELog.h">
+      <Filter>Header Files\Engine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="ECollider.h">
+      <Filter>Header Files\Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EAnimation.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EEvent.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ETexture.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ETimer.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GGame.h">
+      <Filter>Header Files\Game\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GGameState.h">
+      <Filter>Header Files\Game\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GIntro.h">
+      <Filter>Header Files\Game\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="GStage01.h">
+      <Filter>Header Files\Game\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="GEntity.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GEntityContainer.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GEntityHandler.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GEntityFactory.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GEnemy.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GEntityCollisionTypes.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GPlayerController.h">
+      <Filter>Header Files\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GParallaxScroller.h">
+      <Filter>Header Files\Game\ParallaxScroller</Filter>
+    </ClInclude>
+    <ClInclude Include="GBackground.h">
+      <Filter>Header Files\Game\ParallaxScroller</Filter>
+    </ClInclude>
+    <ClInclude Include="GBullet.h">
+      <Filter>Header Files\Game\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GEnemySpawner.h">
+      <Filter>Header Files\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GCamera.h">
+      <Filter>Header Files\Game\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GParticle.h">
+      <Filter>Header Files\Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GParticleHandler.h">
+      <Filter>Header Files\Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GComboHandler.h">
+      <Filter>Header Files\Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EAudio.h">
+      <Filter>Header Files\Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="GAudioHandler.h">
+      <Filter>Header Files\Game\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="EFont.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GMainMenu.h">
+      <Filter>Header Files\Game\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="GStageDeath.h">
+      <Filter>Header Files\Game\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="GStage01_End.h">
+      <Filter>Header Files\Game\Stages</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

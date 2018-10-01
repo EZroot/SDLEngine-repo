@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EFont.cpp" />
+    <ClCompile Include="GAudioHandler.cpp" />
+    <ClCompile Include="EAnimation.cpp" />
+    <ClCompile Include="EAudio.cpp" />
+    <ClCompile Include="ECollider.cpp" />
+    <ClCompile Include="EEngine.cpp" />
+    <ClCompile Include="EEvent.cpp" />
+    <ClCompile Include="ELog.cpp" />
+    <ClCompile Include="ETexture.cpp" />
+    <ClCompile Include="ETimer.cpp" />
+    <ClCompile Include="GBackground.cpp" />
+    <ClCompile Include="GBullet.cpp" />
+    <ClCompile Include="GCamera.cpp" />
+    <ClCompile Include="GComboHandler.cpp" />
+    <ClCompile Include="GEnemy.cpp" />
+    <ClCompile Include="GEnemySpawner.cpp" />
+    <ClCompile Include="GEntity.cpp" />
+    <ClCompile Include="GEntityContainer.cpp" />
+    <ClCompile Include="GEntityFactory.cpp" />
+    <ClCompile Include="GEntityHandler.cpp" />
+    <ClCompile Include="GGame.cpp" />
+    <ClCompile Include="GGameState.cpp" />
+    <ClCompile Include="GIntro.cpp" />
+    <ClCompile Include="GMainMenu.cpp" />
+    <ClCompile Include="GParallaxScroller.cpp" />
+    <ClCompile Include="GParticle.cpp" />
+    <ClCompile Include="GParticleHandler.cpp" />
+    <ClCompile Include="GPlayerController.cpp" />
+    <ClCompile Include="GStage01.cpp" />
+    <ClCompile Include="GStageDeath.cpp" />
+    <ClCompile Include="GStage01_End.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EFont.h" />
+    <ClInclude Include="GAudioHandler.h" />
+    <ClInclude Include="EAnimation.h" />
+    <ClInclude Include="EAudio.h" />
+    <ClInclude Include="ECollider.h" />
+    <ClInclude Include="EEvent.h" />
+    <ClInclude Include="ELog.h" />
+    <ClInclude Include="ETexture.h" />
+    <ClInclude Include="ETimer.h" />
+    <ClInclude Include="GBackground.h" />
+    <ClInclude Include="GBullet.h" />
+    <ClInclude Include="GCamera.h" />
+    <ClInclude Include="GComboHandler.h" />
+    <ClInclude Include="GEnemySpawner.h" />
+    <ClInclude Include="GEntityCollisionTypes.h" />
+    <ClInclude Include="GEnemy.h" />
+    <ClInclude Include="GEntity.h" />
+    <ClInclude Include="GEntityContainer.h" />
+    <ClInclude Include="GEntityFactory.h" />
+    <ClInclude Include="GEntityHandler.h" />
+    <ClInclude Include="GGame.h" />
+    <ClInclude Include="GGameState.h" />
+    <ClInclude Include="GIntro.h" />
+    <ClInclude Include="GMainMenu.h" />
+    <ClInclude Include="GParallaxScroller.h" />
+    <ClInclude Include="GParticle.h" />
+    <ClInclude Include="GParticleHandler.h" />
+    <ClInclude Include="GPlayerController.h" />
+    <ClInclude Include="GStage01.h" />
+    <ClInclude Include="GStageDeath.h" />
+    <ClInclude Include="GStage01_End.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{21f9c3b1-d177-4486-9dd6-9ba05446dae0}</ProjectGuid>
+    <RootNamespace>SDLEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\vs_studio_libs\SDL2_ttf-2.0.14\include;C:\vs_studio_libs\SDL2_mixer-2.0.2\include;C:\vs_studio_libs\SDL2_image-2.0.3\include;C:\vs_studio_libs\SDL2-2.0.8\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\vs_studio_libs\SDL2_ttf-2.0.14\lib\x86;C:\vs_studio_libs\SDL2_mixer-2.0.2\lib\x86;C:\vs_studio_libs\SDL2_image-2.0.3\lib\x86;C:\vs_studio_libs\SDL2-2.0.8\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\vs_studio_libs\SDL2_ttf-2.0.14\include;C:\vs_studio_libs\SDL2_mixer-2.0.2\include;C:\vs_studio_libs\SDL2_image-2.0.3\include;C:\vs_studio_libs\SDL2-2.0.8\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\vs_studio_libs\SDL2_ttf-2.0.14\lib\x86;C:\vs_studio_libs\SDL2_mixer-2.0.2\lib\x86;C:\vs_studio_libs\SDL2-2.0.8\lib\x86;C:\vs_studio_libs\SDL2_image-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

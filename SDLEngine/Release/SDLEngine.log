@@ -1,0 +1,76 @@
+﻿  EFont.cpp
+  GAudioHandler.cpp
+  EAnimation.cpp
+  EAudio.cpp
+  ECollider.cpp
+  EEngine.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\eengine.cpp(124): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  EEvent.cpp
+  ELog.cpp
+  ETexture.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\etexture.cpp(76): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\etexture.cpp(77): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  ETimer.cpp
+  GBackground.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gbackground.cpp(26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GBullet.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gbullet.cpp(16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gbullet.cpp(61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  GCamera.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gcamera.cpp(29): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gcamera.cpp(30): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  GComboHandler.cpp
+  GEnemy.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(197): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(212): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(227): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(242): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(296): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemy.cpp(300): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GEnemySpawner.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\genemyspawner.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  GEntity.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(77): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(82): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(87): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(92): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(116): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(117): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(122): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gentity.cpp(123): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GEntityContainer.cpp
+  GEntityFactory.cpp
+  GEntityHandler.cpp
+  Compiling...
+  GGame.cpp
+  GGameState.cpp
+  GIntro.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gintro.cpp(61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gintro.cpp(62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  GMainMenu.cpp
+  GParallaxScroller.cpp
+  GParticle.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gparticle.cpp(173): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gparticle.cpp(174): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  GParticleHandler.cpp
+  GPlayerController.cpp
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gplayercontroller.cpp(87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gplayercontroller.cpp(101): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gplayercontroller.cpp(119): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gplayercontroller.cpp(123): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gplayercontroller.cpp(132): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\tesarm\source\repos\sdlengine\sdlengine\gplayercontroller.cpp(136): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GStage01.cpp
+  GStageDeath.cpp
+  GStage01_End.cpp
+  Generating code
+  All 382 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SDLEngine.vcxproj -> C:\Users\Tesarm\source\repos\SDLEngine\Release\SDLEngine.exe
